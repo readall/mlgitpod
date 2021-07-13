@@ -10,7 +10,9 @@ conda install -y -c huggingface transformers
 conda install -y -c anaconda seaborn
 conda install -y -c conda-forge bokeh
 conda install -y -c plotly plotly
-conda install -c huggingface -c conda-forge datasets
+conda install -y -c huggingface -c conda-forge datasets
+conda install -y -c conda-forge sentencepiece
+
 
 #Install conda packages for to run jupyterlab
 # conda install -y -c conda-forge jupyterlab

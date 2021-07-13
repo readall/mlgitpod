@@ -16,6 +16,7 @@ conda activate hugface
 
 
 #Install conda packages for NLP higging face
+conda install -y pandas
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 conda install -y -c conda-forge tensorflow
 conda install -y -c conda-forge keras

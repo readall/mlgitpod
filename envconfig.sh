@@ -7,9 +7,11 @@ mkdir -p /workspace/conda
 mkdir -p /workspace/data
 
 #Create a new env called hugface
-conda create --prefix /workspace/conda/hugface &&
-echo "conda activate /workspace/conda/hugface" >> ~/.bashrc &&
-export PATH=/workspace/conda/hugface/bin:$PATH &&
+#conda update -y -n base -c defaults conda
+conda init bash
+conda create --prefix /workspace/conda/hugface && \
+echo "conda activate /workspace/conda/hugface" >> ~/.bashrc && \
+export PATH=/workspace/conda/hugface/bin:$PATH && \
 source ~/.bashrc
 export SHELL=/bin/bash
 conda activate /workspace/conda/hugface

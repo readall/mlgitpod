@@ -8,13 +8,17 @@ mkdir -p /workspace/data
 
 #Create a new env called hugface
 #conda update -y -n base -c defaults conda
+export SHELL=/bin/bash
 conda init bash
 conda create --prefix /workspace/conda/hugface && \
 echo "conda init bash" >> ~/.bashrc && \
 echo "conda activate /workspace/conda/hugface" >> ~/.bashrc && \
-export PATH=/workspace/conda/hugface/bin:$PATH && \
+export PATH=/workspace/conda/hugface/bin:$PATH
+echo "Test step 1"
 source ~/.bashrc
-export SHELL=/bin/bash
+/bin/bash --login
+#export SHELL=/bin/bash
+echo "Test step 2"
 conda activate /workspace/conda/hugface
 
 

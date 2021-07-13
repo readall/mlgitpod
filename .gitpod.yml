@@ -2,7 +2,7 @@ image:
   file: Dockerfile
 
 tasks:
-- command: pyenv global 3.8.11 &&
+  - command: pyenv global 3.8.11 &&
            chmod +x envconfig.sh &&
            chmod +x installing.sh &&
            echo "conda activate /workspace/conda/hugface" >> ~/.bashrc &&

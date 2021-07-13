@@ -7,7 +7,7 @@ mkdir -p /workspace/conda
 mkdir -p /workspace/data
 
 #Create a new env called hugface
-conda create --prefix /workspace/conda/hugface python=3.8.10 &&
+conda create --prefix /workspace/conda/hugface python=3.8.5 &&
 echo "conda activate /workspace/conda/hugface" >> ~/.bashrc &&
 export PATH=/workspace/conda/hugface/bin:$PATH &&
 source ~/.bashrc
@@ -22,7 +22,10 @@ conda install -y matplotlib
 conda install -y pytorch torchvision torchaudio cpuonly -c pytorch
 conda install -y -c conda-forge tensorflow
 conda install -y -c conda-forge keras
-conda install -c huggingface transformers
+conda install -y -c huggingface transformers
+conda install -y -c anaconda seaborn
+conda install -y -c conda-forge bokeh
+conda install -y -c plotly plotly
 
 #Install conda packages for to run jupyterlab
 # conda install -y -c conda-forge jupyterlab

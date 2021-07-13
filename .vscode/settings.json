@@ -1,9 +1,4 @@
 {
     "python.terminal.activateEnvInCurrentTerminal": true,
-    "python.venvFolders": [
-        "/workspace/conda/"
-    ],
     "python.pythonPath": "/workspace/conda/hugface/bin/python",
-    "python.condaPath":"/opt/conda/condabin/conda",
-    "python.venvPath": "/workspace/conda/"
 }

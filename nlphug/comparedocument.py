@@ -87,13 +87,17 @@ screen_clear()
 #     and a lack of well-educated engineers.
 # """))
 
-# # Translation
-# # For translation, you can use a default model if you provide a language pair in the task name (such as "translation_en_to_fr"), but the easiest way is to pick the model you want to use on the Model Hub. Here we’ll try translating from French to English:
-# translator = pipeline("translation", model="Helsinki-NLP/opus-mt-fr-en")
-# en_text = translator("Ce cours est produit par Hugging Face.")
-# print(en_text, en_text[0], type(en_text))
-# # print(translator("Ce cours est produit par Hugging Face."))
-# # the translator pipeline returns a list of dictionaries. Each element of list is a dictionary
-# translator_en_hi = pipeline("translation", model="Helsinki-NLP/opus-mt-en-hi")
-# print(translator_en_hi(en_text[0]['translation_text']))
+# Translation
+# For translation, you can use a default model if you provide a language pair in the task name (such as "translation_en_to_fr"), but the easiest way is to pick the model you want to use on the Model Hub. Here we’ll try translating from French to English:
+translator = pipeline("translation", model="Helsinki-NLP/opus-mt-fr-en")
+en_text = translator("Ce cours est produit par Hugging Face.")
+print(en_text, en_text[0], type(en_text))
+# print(translator("Ce cours est produit par Hugging Face."))
+# the translator pipeline returns a list of dictionaries. Each element of list is a dictionary
+translator_en_hi = pipeline("translation", model="Helsinki-NLP/opus-mt-en-hi")
+hi_text = translator_en_hi(en_text[0]['translation_text'])[0]['translation_text']
+print(hi_text)
+# translator_fr_hi = pipeline("translation", model="Helsinki-NLP/opus-mt-fr-hi")
+# hi_text = translator_fr_hi("Ce cours est produit par Hugging Face.")[0]['translation_text']
+# print(hi_text)
 

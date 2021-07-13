@@ -4,5 +4,5 @@ tasks:
 - command: pyenv global 3.8.11 &&
            chmod +x envconfig.sh &&
            chmod +x installing.sh &&
-           echo "conda activate /workspace/conda/hugface" &&
+           echo "conda activate /workspace/conda/hugface" >> ~/.bashrc &&
            export PATH=/workspace/conda/hugface/bin:$PATH

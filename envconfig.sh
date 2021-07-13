@@ -17,7 +17,7 @@ export PATH=/workspace/conda/hugface/bin:$PATH
 echo "Test step 1"
 source ~/.bashrc
 source activate /workspace/conda/hugface
-/bin/bash --login -c /workspace/mcondaml/installing.sh
+/bin/bash --login -c /workspace/mlgitpod/installing.sh
 #export SHELL=/bin/bash
 echo "Test step 2"
 # conda activate /workspace/conda/hugface

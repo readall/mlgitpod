@@ -1,5 +1,6 @@
 # mlgitpod
-Workspace to learn NLP on gitpod infra
+  Workspace to learn NLP on gitpod infra.
+  Uses the mcondaml (https://github.com/readall/mcondaml) workspace to setup the base tools required
 
 # mcondaml
 This workspace does following

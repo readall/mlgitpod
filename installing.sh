@@ -1,7 +1,3 @@
-echo "Test 3"
-conda activate /workspace/conda/hugface
-echo "Test 4"
-
 
 #Install conda packages for NLP higging face
 conda install -y pandas

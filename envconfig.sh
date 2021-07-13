@@ -10,12 +10,13 @@ mkdir -p /workspace/data
 #conda update -y -n base -c defaults conda
 export SHELL=/bin/bash
 conda init bash
-conda create --prefix /workspace/conda/hugface && \
-echo "conda init bash" >> ~/.bashrc && \
+conda create --prefix /workspace/conda/hugface --clone base && \
+#echo "conda init bash" >> ~/.bashrc && \
 echo "conda activate /workspace/conda/hugface" >> ~/.bashrc && \
 export PATH=/workspace/conda/hugface/bin:$PATH
 echo "Test step 1"
 source ~/.bashrc
+source activate /workspace/conda/hugface
 /bin/bash --login -c /workspace/mcondaml/installing.sh
 #export SHELL=/bin/bash
 echo "Test step 2"

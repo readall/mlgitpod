@@ -1,0 +1,5 @@
+image:
+  file: Dockerfile
+tasks:
+- command: pyenv global 3.8.10 &&
+           chmod +x envconfig.sh 

@@ -10,6 +10,7 @@ mkdir -p /workspace/data
 #conda update -y -n base -c defaults conda
 conda init bash
 conda create --prefix /workspace/conda/hugface && \
+echo "conda init bash" >> ~/.bashrc && \
 echo "conda activate /workspace/conda/hugface" >> ~/.bashrc && \
 export PATH=/workspace/conda/hugface/bin:$PATH && \
 source ~/.bashrc

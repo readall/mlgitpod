@@ -1,0 +1,59 @@
+An experienced technology leader in managing, designing, and delivering highly scalable, high-availability real-time distributed products. Expertise in cloud-native systems and design aspects. Created market strategies and positioning for various products. Worked with counterparts and stakeholders to drive end-to-end vision and roadmap. Designed and delivered high-quality systems that meet or exceed industry standards. 
+  
+I am proficient in Product Management, Product development, Go-To-Market, High-performance concurrent systems, Cloud-native architecture, Requirement Analysis, Prototyping, IoT, embedded systems, and distributed systems.
+
+CAREER HIGHLIGHTS  
+•	Leading the Radio commercial war room with a measured positive impact of ~€200M towards profit. 
+•	Created and driven a Go-To-Market strategy for enterprise products focusing on the private network.
+•	A key contributor to the Technology roadmap of Nokia
+•	Designed and implemented zero packet loss high availability IPsec module for encrypted media traffic passing through the gateway.
+•	Drive product and solution serviceability for core products reducing ownership cost to customer.
+•	From Idea to the market rollout of system-on-chip solution for secure mobile connectivity.
+
+PROFESSIONAL EXPERIENCE  
+Nokia, 		 	 				09/2008 to Present 
+Product Manager Business [(2019 to Present), (2015 to 2018)]
+Responsible for Mobile network products radio hardware, create product vision aligned to market and future technology evolution 
+•	Create a competitive advantage via a combination of innovative features and customer-specific use case
+•	Consultant and a key contributor to ML/AI-based projects driving automation of lifetime value discovery, feature compliance, and custom offer creation 
+•	Drive unique product positioning, differentiated value, profitability, and TCO competitiveness
+•	Drive license control for mobile network radio products
+•	Impact: Helped win very difficult customer cases with technical and commercial inputs, resulted in acquiring new customers where competition had 100% share 
+
+Head Commercial war room (2018 to 2019) 
+Preserve and protect value, increase upsell and increase profits, monetize existing assets with the customer to create a win-win situation 
+•	Engagement with CXO Level and other leadership about strategic and important deals
+•	Actionable insights and recommendations to CXO level supporting decision-making
+•	Data-driven approach with a sharp focus on the long-term viability of the deal, ensuring competitive offers and help win difficult cases
+•	Manage a team of Product pricing managers for better positioning
+•	Work with Product Management leadership to collectively drive greater coherence between roadmap and market
+•	Impact: The War room handled deals worth more than ~€1B during a year and created a measured positive impact of ~€200M towards profit
+•	Impact: Increased software sales by 12% creating a sustainable revenue mix for coming years
+
+Product Manager Serviceability (2010 to 2015)
+Responsible for usability and serviceability aspects of Mobile network products 
+•	Drive product roadmap & implementation, resulting in reduced complexity & increased usability
+•	Reduce care services turnaround time for rollout, commissioning and troubleshooting in complex setups
+•	Drive R&D process transformation to address relevant areas as non-functional requirements with correct ownership
+•	Impact: Created a measurable positive impact on profitability. Measured impact of ~100M€
+
+Research Engineer CTO (2008 to 2010)
+•	Create and shape technology roadmap 2009 to assist the overall vision for future development of Nokia networks
+•	Analyze current portfolio landscape within the company and benchmark against industry 
+•	Create recommendations and architecture level requirements for products, drive NFR to secure longterm vision
+•	Co-Authored a white paper laying groundwork for future transition to solution-based selling and delivery of products
+•	Created requirement specification and reference design for systems to enable solutions out of the box
+
+Sonus Networks (Now Ribbon Communications), Lead Engineer, 04/2007 – 09/2008
+PicoMobile Net, Project Manager/Product Owner/Delivery Manager, 06/2006 – 03/2007
+Motorola, Senior Software Engineer, 04//2006
+Avaya, Software Develop Engineer, 01//2005
+Wipro, Project Engineer, 07/2003 – 01/2004
+Tech-Mahindra, Software Design Engineer, 09//2003
+EDUCATION 
+ 
+Mahindra Institute of Software Engineering and Management, Pune, Maharashtra, 2000
+ 	P.G., Diploma in Software Engineering and Management
+Bangalore University, Bangalore, Karnataka, 1999
+ 	B.E., Electronics & communication
+Certifications: Deep learning specialization, SAFe Certified Product Manager, AWS Certified Solution architect associate

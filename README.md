@@ -2,6 +2,10 @@
   Workspace to learn NLP on gitpod infra.
   Uses the mcondaml (https://github.com/readall/mcondaml) workspace to setup the base tools required
 
+# Notes
+Use longformer from transformer for document processing
+Find simple and fast methods of document loading without dependency bloat
+
 # mcondaml
 This workspace does following
 1. Setup a gitpod environment with minicond, PyTorch, Tensorflow and keras
